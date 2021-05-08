@@ -10,6 +10,10 @@ values.each do |value|
   end
 end
 
+2.times do
+  cards << '[Joker]'
+end
+
 cards.shuffle!
 
 puts "How many cards do you pick?"
